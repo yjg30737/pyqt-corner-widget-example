@@ -9,15 +9,8 @@ class MainWindow(QMainWindow):
         # under the experiment
         # self.__btn = QPushButton('Corner Widget', self)
         self.__btn = QPushButton('Corner Widget')
-        self.__effect = QGraphicsDropShadowEffect()
-        self.__effect.setBlurRadius(5.0)
-        self.__effect.setColor(QColor(0, 0, 0, 127))
-        self.__effect.setOffset(0.0)
-        self.__btn.setGraphicsEffect(self.__effect)
         self.__btn.setMaximumSize(self.__btn.sizeHint())
         self.__btn.setWindowFlags(Qt.FramelessWindowHint | Qt.SubWindow)
-        self.__btn.setAttribute(Qt.WA_TranslucentBackground)
-        self.__btn.setAutoFillBackground(True)
         self.__initUi()
 
     def __initUi(self):
