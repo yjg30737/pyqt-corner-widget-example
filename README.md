@@ -1,5 +1,5 @@
 # pyqt-corner-widget-example
-PyQt example which shows widget at the bottom-right corner of window (using event/geometry,  no QGridLayout involved)
+PyQt example which shows widget at the bottom-right corner of window (using event/geometry, no QGridLayout involved)
 
 ## Requirements
 * PyQt5 >= 5.8
@@ -22,4 +22,17 @@ if __name__ == "__main__":
 ```
 
 Result
+
+Normal
+
+![image](https://user-images.githubusercontent.com/55078043/171563818-a3fcae10-128c-42b9-b182-a8e9f1c3b0f1.png)
+
+Maximize
+
+![image](https://user-images.githubusercontent.com/55078043/171563860-be8be3b9-03d1-4a4c-a78d-47fef1fd58b0.png)
+
+After resize
+
+![image](https://user-images.githubusercontent.com/55078043/171563885-59a07dcf-3848-44fc-a709-f70188709d4f.png)
+
 
