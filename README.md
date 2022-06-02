@@ -38,7 +38,7 @@ After resize
 ![image](https://user-images.githubusercontent.com/55078043/171563885-59a07dcf-3848-44fc-a709-f70188709d4f.png)
 
 ## See Also
-<a href="https://github.com/yjg30737/pyqt-show-button-when-hover-widget.git">pyqt-show-button-when-hover-widget</a> - In this case, i used `QGridLayout` to set button's position at bottom right.  
+* <a href="https://github.com/yjg30737/pyqt-show-button-when-hover-widget.git">pyqt-show-button-when-hover-widget</a> - In this example, i used `QGridLayout` to set button's position at bottom right.
 
 
 
